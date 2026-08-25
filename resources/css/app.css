@@ -141,3 +141,9 @@
         @apply bg-background text-foreground;
     }
 }
+
+.catalog-shell {
+    min-height: var(--tg-viewport-stable-height, 100dvh);
+    background: var(--tg-theme-bg-color, var(--background));
+    color: var(--tg-theme-text-color, var(--foreground));
+}
